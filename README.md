@@ -1,3 +1,3 @@
 # vanessawang
 
-Personal website. Copyright Vanessa Wang 2017.
+Personal website. Copyright © Vanessa Wang 2017.
