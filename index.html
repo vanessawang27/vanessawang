@@ -21,21 +21,61 @@
 
 <body id="page-top">
 	<!--Navigation-->
- 	<nav id="mainNav" class="navbar navbar-custom navbar-fixed-top">
- 		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand page-scroll" href="#page-top">Home</a>
-			</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a class="page-scroll" href="#about">About</a></li>
-						<li><a class="page-scroll" href="#projects">Projects</a></li>
-						<li><a class="page-scroll" href="#skills">Skills</a></li>
-						<li><a class="page-scroll" href="#contact">Contact</a></li>
-					</ul>
+	<!-- <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html">
+              <img src='/images/logo.jpg' alt=>
+            </a>
+    </div> -->
+
+<!--     	<div class="collapse navbar-collapse">
+	 	<nav id="mainNav" class="navbar navbar-custom navbar-fixed-top">
+	 		<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand page-scroll" href="#page-top">Home</a>
 				</div>
-		</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="page-scroll" href="#about">About</a></li>
+							<li><a class="page-scroll" href="#projects">Projects</a></li>
+							<li><a class="page-scroll" href="#skills">Skills</a></li>
+							<li><a class="page-scroll" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+			</div>
+		</nav>
+	</div> -->
+
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <div class="navbar-header">
+			<a class="navbar-brand page-scroll" href="#page-top">Home</a>
+		  </div>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+			<li><a class="page-scroll" href="#about">About</a></li>
+			<li><a class="page-scroll" href="#projects">Projects</a></li>
+			<li><a class="page-scroll" href="#skills">Skills</a></li>
+			<li><a class="page-scroll" href="#contact">Contact</a></li>
+	      </ul>
+	    </div>
+	  </div>
 	</nav>
+
+
 
 	<header>
 		<div class="header-content">
@@ -53,13 +93,13 @@
 	<section id="about" class="content-row">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-md-3">
 					<img class="img-responsive" src='./images/profile.JPG'>
 				</div>
-				<div class="col-lg-9">
+				<div class="col-md-9">
 					<h2 class="section-heading">About Me</h2>
 					<p class="text-faded">Originally from the Bay Area in California, I currently attend the University of Illinois
-						at Urbana-Champaign, pursuing a Bachelor's degree in Computer Science and a minor in Statistics. As a student, I am exploring the many different areas of computing, trying a variety of courses and becoming involved with student organizations such as the Association for Computing Machinery and Women in Computer Science. I enjoy full-stack web development and am interested in gaining . What began with the creation of a personal website and a new version of an organization website, has led me to a position managing a university website with ASP.NET, as well as an UI/UX internship role at SynergySuite. This summer, I worked as a Software Engineering Intern on the Innovation Platform at Visa.</p>
+						at Urbana-Champaign, pursuing a Bachelor's degree in Computer Science and a minor in Statistics. As a student, I am exploring the many different areas of computing, trying a variety of courses and becoming involved with student organizations such as the Association for Computing Machinery and Women in Computer Science. I enjoy full-stack web development and am interested in gaining . What began with the creation of a personal website and a new version of an organization website, has led me to a position managing a university website with ASP.NET, as well as an UI/UX internship role at SynergySuite. This summer, I worked as a Software Engineering Intern on the Developer Platform Team at Visa.</p>
 				</div>
 			</div>
 		</div>
@@ -74,7 +114,8 @@
 
 			<div class="row text-center">
 			
-				<!-- <div class="col-md-4 text-center">
+				<a href="https://www.amazon.com/dp/B0745Y68D1/ref=sr_1_2?s=digital-skills">
+				<div class="col-md-3 text-center project">
 					<div class="icon">
 						<i class="fa fa-lightbulb-o fa-4x"></i>
 					</div>
@@ -83,11 +124,12 @@
 						<p2>July 2017</p2>
 						<p>Alexa skill that calculates the distance between two cities using the Google Maps Geolocation API and a Lambda function written with Node.js.</p>
 					</div>
-				</div> -->
+				</div>
+				</a>
 
 
-
-				<div class="col-md-4 text-center">
+				<a href="https://github.com/vanessawang27/UIUC-Restaurant-Finder">
+				<div class="col-md-3 text-center project">
 					<div class="icon">
 						<i class="fa fa-lightbulb-o fa-4x"></i>
 					</div>
@@ -97,8 +139,10 @@
 						<p>App with restaurant search and recommendation functionalities build on a Flask server. Integrated a search query with Yelp API. Created collaborative- and content-based filtering algorithms to suggest restaurants based on users’ and users’ friends’ “liked” restaurants.</p>
 					</div>
 				</div>
+				</a>
 
-				<div class="col-md-4 text-center">
+				<a href="https://github.com/jwlee/Fildatify">
+				<div class="col-md-3 text-center project">
 					<div class="icon">
 						<i class="fa fa-lightbulb-o fa-4x"></i>
 					</div>
@@ -108,8 +152,10 @@
 						<p>Web application connecting users with similar tastes in entertainment using IMDB dataset. Implemented SQL queries for user registration and login, movie search and recommendations, and user matching.</p>
 					</div>
 				</div>
+				</a>
 
-				<div class="col-md-4 text-center">
+				<a href="https://github.com/jwlee/fitfriends">
+				<div class="col-md-3 text-center project">
 					<div class="icon">
 						<i class="fa fa-lightbulb-o fa-4x"></i>
 					</div>
@@ -118,9 +164,9 @@
 						<p2>May 2016</p2>
 						<p>Platform allowing users to create competitions and view progress to meet fitness goals. Constructed using Bootstrap and D3.js with an focus on effective user interface design.</p>
 					</div>
-				</div>
+				</div> 
+				</a>
 
-			</div>
 		</div>
 	</section>
 
@@ -289,6 +335,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
