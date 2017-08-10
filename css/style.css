@@ -50,7 +50,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 40px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,1);
 }
 
 header .header-content .header-content-inner a, .btn-circle{
